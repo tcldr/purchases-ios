@@ -42,8 +42,8 @@ platform :ios do
     wait_for_simulator = options.fetch(:wait_for_simulator, false)
     if wait_for_simulator
       puts 'sleeping for 5 minutes so the simulators have time to boot up. The sadness.'
-      sleep(5 * 60)
-      puts '5 minutes elapsed. Time to get back to work'
+      sleep(10 * 60)
+      puts '10 minutes elapsed. Time to get back to work'
     end
     
     # Scan can't target two different platforms in devices
